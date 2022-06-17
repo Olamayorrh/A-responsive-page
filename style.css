@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+
+}
+.content .left{
+  width: 100%;
+  
+}
+  
+.left .top h3{
+  justify-content: center;
+  font-size: 25px;
+ font-weight: 600;
+  padding: 10px;
+}
+
+
+.content .left p{
+  font-size: 13px;
+  justify-content: center;
+  
+}
+
+.content .right{
+  width: 100%;
+}
+
+.right .top2 p{
+  font-size: 10px;
+  padding: 5px;
+   background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.right .formBox{
+  width: 100%;
+  
+}
+
+.right .formBox .box{
+  margin-bottom: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
