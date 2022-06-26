@@ -4,21 +4,25 @@
   box-sizing: border-box;
 }
 
+
 .content{
   width: 50%;
   margin: auto;
-  display: flex;
+  
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-image: url("images/mobile.png");
+  min-height: 100vh;
+  background-image: url("images/desktop.png");
   padding: 40px;
+  background-color: #e83b43;
+  
   
 
 }
 .content .left{
   width: 100%;
-  padding: 20px;
+ 
+  color: white;
   
 }
   
@@ -27,23 +31,28 @@
   font-size: 25px;
  font-weight: 600;
   padding: 10px;
+  color: white;
 }
 
 
 .content .left p{
-  font-size: 13px;
+  font-size: 10px;
   justify-content: center;
+  text-align: left;
+  padding: 2em;
   
 }
 
 .content .right{
   width: 100%;
+ 
 }
 
 .right .top2 p{
   font-size: 10px;
-  padding: 5px;
-   background-color: hsl(0, 0%, 90%);
+  padding: 10px;
+  background-color: #010151;
+  color: white;
   border-radius: 5px;
   text-align: center;
   margin-bottom: 20px;
@@ -69,38 +78,59 @@
 
 
   .right .formBox button{
-   font-size: 15px;
+   font-size: 5px;
   width: 100%;
   background-color: green;
   color: white;
-  padding: 10px;
+  padding: 5px;
   
   }
 
-.box, email, button, p2{
+.right .formBox .p2 p{
    width: 100%;
+  font-size: 8px;
+  text-align: center;
+  color: black;
 }
-
-span{
-  font-size: 13px;
+.p span{
+  font-size: 8px;
+  
+}
+  .p2 span{
+  font-size: 8px;
   color: red;
 }
 
 
 
 
-@media screen and (max-width:1440px){
+@media screen and (max-width: 1440px) {
   body{
-    background-color: green;
+    background-color: black;
     color: white;
-  }
+    
+ }
+ .content{
+   display: flex;
+   flex-direction: horizontal;
+ }
+
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width: 675px){
   body{
-    background-color: red;
+    background-color: blue;
     color: white;
   }
+ .content{
+  width: 50%;
+  margin: auto;
+   display: flex;
+   flex-direction: column;
+ 
+ 
+ }
+
 }
 
 
